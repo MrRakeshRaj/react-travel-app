@@ -1,4 +1,4 @@
-import { menuItems } from "../helpers/menuItems";
+import { menuItems } from "../../helpers/menuItems";
 
 export function NavList({ openNav }): JSX.Element {
   return (

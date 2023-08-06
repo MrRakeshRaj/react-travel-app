@@ -1,4 +1,4 @@
-import { Hero } from "./Hero";
+import { Hero } from "./hero-section/Hero";
 
 export function Home(): JSX.Element {
   return (
