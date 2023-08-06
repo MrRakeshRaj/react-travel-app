@@ -4,7 +4,7 @@ import { Button } from "./Button";
 export function MobileNav({ openNav, handleBooking }): JSX.Element {
   return (
     <nav>
-      <div className="container mx-auto mt-16 font-medium text-xl ml-3">
+      <div className="container mx-auto mt-16 font-medium text-xl ml-8">
         <NavList openNav={openNav} />
         <Button
           handleBooking={handleBooking}

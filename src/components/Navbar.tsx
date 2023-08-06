@@ -4,6 +4,7 @@ import { Button } from "./Button";
 import { IconButton } from "./IconButton";
 import { MobileNav } from "./MobileNav";
 import { AlohaIcon } from "./AlohaIcon";
+import "animate.css";
 
 const handleBooking = () => {
   console.log("clicked booking");
@@ -21,9 +22,11 @@ export function Navbar(): JSX.Element {
 
   return (
     <nav
-      className={`mx-auto ${
-        openNav ? "h-screen mr-0 ml-6" : ""
-      } max-w-screen-lg lg:mt-8 py-2 px-4 lg:px-8 lg:py-4 shadow-md rounded-lg font-robotomono`}
+      className={`relative top-0 lg:top-5 z-10 mx-auto ${
+        openNav
+          ? "h-screen mr-0 ml-6 top-0 animate__animated animate__fadeInTopRight"
+          : "top-0"
+      } max-w-screen-lg py-2 px-4 lg:px-8 lg:py-4 shadow-md rounded-lg font-robotomono bg-white`}
     >
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <div className="flex lg:justify-between lg:items-center flex-col lg:flex-row">
