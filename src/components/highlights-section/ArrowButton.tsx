@@ -1,9 +1,11 @@
-export function ArrowButton(): JSX.Element {
+export function ArrowButton({ bg }): JSX.Element {
   return (
     <>
       <button
         type="button"
-        className="text-white bg-[#E6F2F2] hover:bg-teal-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center items-center justify-end mr-2"
+        className={`text-white ${
+          bg ? "bg-[#E6F2F2]" : ""
+        } hover:bg-teal-100 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center items-center justify-end mr-2`}
       >
         <svg
           className="w-4 h-4"

@@ -1,5 +1,5 @@
 import { Card } from "./Card";
-import { cardDetails } from "../../helpers/cardDetails";
+import { cardDetails } from "../../data/cardDetails";
 import React from "react";
 
 export function Cards(): JSX.Element {

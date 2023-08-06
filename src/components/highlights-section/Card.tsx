@@ -20,7 +20,7 @@ export function Card({ title, content, imgPath }): JSX.Element {
           <p className="mb-3 text-black font-normal text-base">{content}</p>
         </div>
         <div className="px-6 py-4 flex flex-row justify-end">
-          <ArrowButton />
+          <ArrowButton bg={true} />
         </div>
       </div>
     </>
