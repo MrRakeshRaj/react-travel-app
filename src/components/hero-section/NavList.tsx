@@ -1,6 +1,10 @@
 import { menuItems } from "../../data/menuItems";
 
-export function NavList({ openNav }): JSX.Element {
+type propsType = {
+  openNav: boolean;
+};
+
+export function NavList({ openNav }: propsType): JSX.Element {
   return (
     <ul className="mb-4 mt-4 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-6">
       {menuItems.map((item, i) => {

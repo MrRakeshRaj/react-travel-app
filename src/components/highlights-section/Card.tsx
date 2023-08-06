@@ -1,6 +1,12 @@
 import { ArrowButton } from "./ArrowButton";
 
-export function Card({ title, content, imgPath }): JSX.Element {
+type propsType = {
+  title: string;
+  content: string;
+  imgPath: string;
+};
+
+export function Card({ title, content, imgPath }: propsType): JSX.Element {
   return (
     <>
       <div className="max-w-sm mx-2 max-sm:w-full sm:shrink-0 sm:grow rounded-lg sm:basis-0 mt-6 flex flex-col justify-between shadow-lg shadow-[#E6F2F2] overflow-hidden">

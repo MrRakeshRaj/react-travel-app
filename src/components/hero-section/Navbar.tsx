@@ -11,7 +11,7 @@ const handleBooking = () => {
 };
 
 export function Navbar(): JSX.Element {
-  const [openNav, setOpenNav] = useState(false);
+  const [openNav, setOpenNav] = useState<boolean>(false);
 
   useEffect(() => {
     window.addEventListener(

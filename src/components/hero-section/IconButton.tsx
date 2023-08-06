@@ -1,4 +1,8 @@
-export function IconButton({ openNav, setOpenNav }): JSX.Element {
+type propsType = {
+  openNav: boolean;
+  setOpenNav: (value: boolean) => void;
+};
+export function IconButton({ openNav, setOpenNav }: propsType): JSX.Element {
   return (
     <>
       <button

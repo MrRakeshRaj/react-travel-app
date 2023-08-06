@@ -1,4 +1,7 @@
-export function ArrowButton({ bg }): JSX.Element {
+type propsType = {
+  bg: boolean;
+};
+export function ArrowButton({ bg }: propsType): JSX.Element {
   return (
     <>
       <button

@@ -1,4 +1,7 @@
-export function AlohaIcon({ color }): JSX.Element {
+type propsType = {
+  color: boolean;
+};
+export function AlohaIcon({ color }: propsType): JSX.Element {
   return (
     <>
       <a

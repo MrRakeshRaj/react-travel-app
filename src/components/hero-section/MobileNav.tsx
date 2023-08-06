@@ -1,7 +1,11 @@
 import { NavList } from "./NavList";
 import { Button } from "./Button";
 
-export function MobileNav({ openNav, handleBooking }): JSX.Element {
+type propsType = {
+  openNav: boolean;
+  handleBooking: () => void;
+};
+export function MobileNav({ openNav, handleBooking }: propsType): JSX.Element {
   return (
     <nav>
       <div className="container mx-auto mt-16 font-medium text-xl ml-8">
