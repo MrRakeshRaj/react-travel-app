@@ -5,7 +5,7 @@ import { Headings } from "../Headings";
 export function TravelGuide(): JSX.Element {
   return (
     <>
-      <div className="lg:relative max-sm:ml-7 lg:right-10 flex flex-col lg:w-[560px] mt-10 mr-7 mb-3">
+      <div className="lg:relative max-sm:ml-7 lg:right-10 flex flex-col lg:w-[560px] mt-10 mr-7 mb-32">
         <Headings title={"Travel Guide"} />
         <div className="flex flex-row justify-between items-center lg:w-full h-[190px] bg-white mt-4 rounded-lg">
           <div className="flex flex-col mr-4">

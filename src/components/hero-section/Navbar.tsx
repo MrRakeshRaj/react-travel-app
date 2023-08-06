@@ -3,7 +3,7 @@ import { NavList } from "./NavList";
 import { Button } from "./Button";
 import { IconButton } from "./IconButton";
 import { MobileNav } from "./MobileNav";
-import { AlohaIcon } from "./AlohaIcon";
+import { AlohaIcon } from "../AlohaIcon";
 import "animate.css";
 
 const handleBooking = () => {
@@ -31,7 +31,7 @@ export function Navbar(): JSX.Element {
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <div className="flex lg:justify-between lg:items-center flex-col lg:flex-row">
           <div className="font-normal text-5xl">
-            {!openNav ? <AlohaIcon /> : ""}
+            {!openNav ? <AlohaIcon color={false} /> : ""}
           </div>
           <div className="hidden lg:block">
             <NavList openNav={openNav} />
