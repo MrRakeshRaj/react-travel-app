@@ -3,7 +3,7 @@ import { ArrowButton } from "./ArrowButton";
 export function Card({ title, content, imgPath }): JSX.Element {
   return (
     <>
-      <div className="max-w-sm mx-2 sm:shrink-0 sm:grow rounded-lg sm:basis-0 mt-6 flex flex-col justify-between shadow-lg shadow-[#E6F2F2] overflow-hidden">
+      <div className="max-w-sm mx-2 w-full sm:shrink-0 sm:grow rounded-lg sm:basis-0 mt-6 flex flex-col justify-between shadow-lg shadow-[#E6F2F2] overflow-hidden">
         <a href="#">
           <img
             className="rounded-t-lg w-full object-cover h-40"
