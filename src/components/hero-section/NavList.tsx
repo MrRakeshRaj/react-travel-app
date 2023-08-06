@@ -10,7 +10,7 @@ export function NavList({ openNav }): JSX.Element {
               href="#"
               className={`${
                 openNav ? "text-lg" : ""
-              } font-bold text-base flex items-center p-2 focus:outline-none rounded-md hover:border hover:border-teal-700 hover:text-teal-700 focus:z-10 focus:ring-4 focus:ring-teal-700`}
+              } font-medium text-base flex items-center p-2 focus:outline-none rounded-md hover:border hover:border-teal-700 hover:text-teal-700 focus:z-10 focus:ring-4 focus:ring-teal-700`}
             >
               {item.title}
             </a>
