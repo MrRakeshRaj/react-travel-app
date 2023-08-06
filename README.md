@@ -22,7 +22,7 @@ User-friendly application that provides Travel app Ui With a clean and intuitive
 
 
 ## Deployment
-View my deployment on Netlify => [Live Demo](https://react-travel-app.netlify.app).
+View my deployment on Netlify => [Live Demo](https://vite-react-travel-app.netlify.app).
 
 ## Setup
 To run the Travel App locally on your machine, follow these steps:
