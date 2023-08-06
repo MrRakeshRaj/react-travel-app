@@ -5,9 +5,9 @@ import { Headings } from "../Headings";
 export function TravelGuide(): JSX.Element {
   return (
     <>
-      <div className="lg:relative lg:right-16 flex flex-col w-[560px] mt-10 mr-10">
+      <div className="lg:relative max-sm:ml-7 lg:right-10 flex flex-col lg:w-[560px] mt-10 mr-7 mb-3">
         <Headings title={"Travel Guide"} />
-        <div className="flex flex-row justify-between items-center w-full h-[190px] bg-white mt-4 rounded-lg">
+        <div className="flex flex-row justify-between items-center lg:w-full h-[190px] bg-white mt-4 rounded-lg">
           <div className="flex flex-col mr-4">
             <div className="pl-6 pr-6 font-robotomono">
               <h5 className="text-2xl -mt-5 font-semibold leading-tight text-black ">

@@ -5,7 +5,7 @@ import { ArrowButton } from "../highlights-section/ArrowButton";
 export function Categories(): JSX.Element {
   return (
     <>
-      <div className="flex flex-col w-[544px] all:mt-10 mt-56 ml-5 lg:mt-10 md:mt-10 lg:ml-24 md:ml-20 sm:ml-10 ">
+      <div className="flex flex-col lg:w-[544px] all:mt-10 mt-56 ml-5 lg:mt-10 md:mt-10 lg:ml-24 md:ml-20 sm:ml-10 max-sm:mt-10 ">
         <Headings title={"Categories"} />
 
         <div className="flex flex-col mt-2 p-2 gap-2">
