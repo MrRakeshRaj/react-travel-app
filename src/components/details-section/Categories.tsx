@@ -12,7 +12,7 @@ export function Categories(): JSX.Element {
           {categories.map((item, i) => (
             <div
               key={i}
-              className="bg-white flex flex-row font-robotomono font-light text-sm justify-between items-center text-black max-w-md rounded-xl w-[544px] h-[68px]"
+              className="bg-white flex flex-row font-robotomono font-light text-sm justify-between items-center text-black max-w-md rounded-xl w-[544px] h-[68px] transform transition duration-500 hover:scale-110 "
             >
               <div className="ml-2 pl-3">{item.title}</div>
               <div className="m1-2 pr-2">
