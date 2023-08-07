@@ -11,13 +11,15 @@ User-friendly application that provides Travel app Ui With a clean and intuitive
 
 ## Screenshots
 
-1. Hero Section
+1. ### Hero Section
 <img width="1437" alt="Screenshot 2023-08-07 at 01 12 41" src="https://github.com/MrRakeshRaj/react-travel-app/assets/76464379/c5d1fdc2-a8ee-4add-ae24-ae3e81ba4e7f">
 
-3. Highlights
+
+2. ### Highlights
 <img width="1438" alt="Screenshot 2023-08-07 at 01 13 01" src="https://github.com/MrRakeshRaj/react-travel-app/assets/76464379/91968425-74df-46d5-a067-e37abc397963">
 
-5. Details Section
+
+3. ### Details Section
 <img width="1440" alt="Screenshot 2023-08-07 at 01 13 10" src="https://github.com/MrRakeshRaj/react-travel-app/assets/76464379/dafde5ae-a908-426b-a9c1-775574b3df4d">
 
 
